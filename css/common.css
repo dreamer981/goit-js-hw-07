@@ -149,3 +149,114 @@ p a:hover {
   font-weight: 600;
   color: #333;
 }
+
+
+
+/* Task 6 */
+#controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  width: 486px;
+  height: 104px;
+  background: #F6F6FE;
+  border-radius: 8px;
+}
+
+#controls input {
+  width: Hug (150px)px;
+  height: Hug (40px)px;
+  padding: 8px 72px 8px 72px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+#controls button {
+  width: 120px;
+  height: 40px;
+  padding: 8px 72px;
+  gap: 10px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls button[data-create] {
+  background: #4E75FF;
+  color: #FFFFFF;
+}
+
+#controls button[data-destroy] {
+  background: #FF4E4E;
+  color: #FFFFFF;
+}
+
+#controls button:hover {
+  opacity: 0.8;
+}
+
+/* Boxes Section */
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 16px;
+}
+
+/* Box styles */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #799CD2; /* Default color */
+  transition: all 0.3s ease;
+}
+
+.box:nth-child(1) {
+  background: #799CD2;
+  width: 30px;
+  height: 30px;
+}
+
+.box:nth-child(2) {
+  background: #8CB9D4;
+  width: 40px;
+  height: 40px;
+}
+
+.box:nth-child(3) {
+  background: #ADE1D1;
+  width: 50px;
+  height: 50px;
+}
+
+.box:nth-child(4) {
+  background: #D1EBDE;
+  width: 60px;
+  height: 60px;
+}
+
+.box:nth-child(5) {
+  background: #8EBFA7;
+  width: 70px;
+  height: 70px;
+}
+
+.box:hover {
+  opacity: 0.8;
+}
