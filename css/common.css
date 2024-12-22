@@ -102,3 +102,50 @@ p a:hover {
     width: 100%;
     height: auto;
   }
+
+
+
+/* Task 5 */
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+}
+
+/* Change color button */
+.change-color {
+  width: 148px;
+  height: 40px;
+  background: #4E75FF;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; /* identical to box height, or 150% */
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.change-color:hover {
+  background: #365AB3; /* Example hover effect */
+}
+
+/* Color text */
+.color {
+  font-weight: 600;
+  color: #333;
+}
